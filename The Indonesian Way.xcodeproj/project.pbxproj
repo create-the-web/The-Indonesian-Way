@@ -63,8 +63,8 @@
 		3E0E4E981D7342F1003928E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E4E971D7342F1003928E6 /* Extensions.swift */; };
 		3E32F2361D69A73700D14CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F2351D69A73700D14CB1 /* AppDelegate.swift */; };
 		3E32F23D1D69A73700D14CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F23B1D69A73700D14CB1 /* Main.storyboard */; };
-		3E32F23F1D69A73700D14CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F23E1D69A73700D14CB1 /* Assets.xcassets */; };
 		3E32F2421D69A73700D14CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F2401D69A73700D14CB1 /* LaunchScreen.storyboard */; };
+		3EBAB8771D89C13000233504 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBAB8761D89C13000233504 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,9 +125,9 @@
 		3E32F2321D69A73700D14CB1 /* The Indonesian Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Indonesian Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E32F2351D69A73700D14CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E32F23C1D69A73700D14CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E32F23E1D69A73700D14CB1 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E32F2411D69A73700D14CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E32F2431D69A73700D14CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBAB8761D89C13000233504 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +145,10 @@
 		3E0E4E291D71619A003928E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EBAB8761D89C13000233504 /* Media.xcassets */,
 				3E32F2401D69A73700D14CB1 /* LaunchScreen.storyboard */,
 				3E0E4E341D72E5D5003928E6 /* Audio */,
 				3E32F2351D69A73700D14CB1 /* AppDelegate.swift */,
-				3E32F23E1D69A73700D14CB1 /* Assets.xcassets */,
 				3E32F2431D69A73700D14CB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -347,6 +347,7 @@
 				3E0E4E741D72E617003928E6 /* 001-01.mp3 in Resources */,
 				3E0E4E6B1D72E617003928E6 /* 009-03.mp3 in Resources */,
 				3E0E4E691D72E617003928E6 /* 013-03.mp3 in Resources */,
+				3EBAB8771D89C13000233504 /* Media.xcassets in Resources */,
 				3E0E4E721D72E617003928E6 /* 001-07.mp3 in Resources */,
 				3E0E4E7A1D72E617003928E6 /* 006-02.mp3 in Resources */,
 				3E0E4E881D72E617003928E6 /* 013-01.mp3 in Resources */,
@@ -359,7 +360,6 @@
 				3E0E4E6F1D72E617003928E6 /* 004-04.mp3 in Resources */,
 				3E0E4E711D72E617003928E6 /* 002-03.mp3 in Resources */,
 				3E0E4E811D72E617003928E6 /* 001-05.mp3 in Resources */,
-				3E32F23F1D69A73700D14CB1 /* Assets.xcassets in Resources */,
 				3E32F23D1D69A73700D14CB1 /* Main.storyboard in Resources */,
 				3E0E4E731D72E617003928E6 /* 001-06.mp3 in Resources */,
 				3E0E4E8E1D72E617003928E6 /* 005-02.mp3 in Resources */,
